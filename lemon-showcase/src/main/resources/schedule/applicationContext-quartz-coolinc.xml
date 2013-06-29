@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>    
-	<bean id="job_1" class="cn.coolinc.service.ScheduleService"></bean>
+<!-- 	<bean id="job_1" class="cn.coolinc.service.ScheduleService"></bean>
 	<bean id="jobDetail_1"
 		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
 		<property name="targetObject">
@@ -19,7 +19,7 @@
 		<property name="cronExpression">
 			<value>*/5 * * * * ?</value>
 		</property>
-	</bean>
+	</bean> -->
         
      <!-- 
      ======================================================================= 
