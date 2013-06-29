@@ -1,5 +1,7 @@
 package cn.coolinc.service;
 
+import java.util.Date;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -9,6 +11,7 @@ public class ScheduleService {
     
     public void doJob(){
         log.debug("quartz scheduling.");
+        System.out.println("scheduling @"+new Date().getTime());
     }
 
 }

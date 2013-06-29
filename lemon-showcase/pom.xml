@@ -329,12 +329,14 @@
 			<artifactId>jetty-jsp</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>spy</groupId>
 			<artifactId>spymemcached</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>lemon-showcase</finalName>
