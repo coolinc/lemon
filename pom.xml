@@ -29,5 +29,6 @@
   	<module>lemon-support-sms</module>
   	<module>lemon-quickstart</module>
   	<module>lemon-showcase</module>
+  	<module>lemon-commons</module>
   </modules>
 </project>
