@@ -70,7 +70,7 @@
 					        		<tr><td class="ltd">登录名:</td><td class="rtd"><input name="loginName" class="easyui-validatebox" required="true"><input name="id" type="hidden"></td></tr>
 					        		<tr><td class="ltd">姓名:</td><td class="rtd"><input name="name" class="easyui-validatebox" required="true">  </td></tr>
 					        		<tr><td class="ltd">性别:</td><td class="rtd"><select name="sex" class="easyui-combobox"  style="width:202px;"><option value="">- 请选择 -</option><option value="1">男</option><option value="0">女</option></select></td></tr>
-					        		<tr><td class="ltd">出生日期:</td><td class="rtd"><input name="birthday" onClick="WdatePicker()"></td></tr>
+					        		<tr><td class="ltd">出生日期:</td><td class="rtd"><input name="birthday" class="easyui-datebox" style="width:202px;"></td></tr>
 					        		<tr><td class="ltd">身份证号码:</td><td class="rtd"><input name="idCard"></td></tr>
 					        		<tr><td class="ltd">籍贯:</td><td  class="rtd"><input name="household"></td></tr>
 					        		<tr><td class="ltd">民族:</td>
@@ -306,8 +306,7 @@
 		$('#fm').form('clear');  
 		if (row){  
 			$('#resume').ckeditor("clear");
-		    $.post("${ctx}/admin/staff/"+row.id,function(data){
-		    	var staff=eval('('+data+')');
+		    $.post("${ctx}/admin/staff/"+row.id,function(staff){
 		    	$('#fm').form('load',staff);  	
 		    	$('#resume').ckeditor("setValue",staff.resume);
 		    });

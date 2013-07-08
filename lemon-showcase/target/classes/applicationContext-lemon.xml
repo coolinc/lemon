@@ -13,4 +13,5 @@
 		default-lazy-init="true">
 <!-- 		<import resource="classpath*:/email/applicationContext-email.xml"/>-->
 	 		<import resource="classpath*:/security/applicationContext-security-staff.xml"/>
+	 		<import resource="classpath*:/schedule/applicationContext-quartz-coolinc.xml"/>
 </beans>

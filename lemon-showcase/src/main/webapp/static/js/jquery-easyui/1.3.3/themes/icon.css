@@ -75,3 +75,18 @@
 .icon-forbidden{
 	background:url('icons/ext_forbidden.png') no-repeat center center;
 }
+.icon-pause{
+	background:url('icons/ext_pause.gif') no-repeat center center;
+}
+.icon-resume{
+	background:url('icons/ext_resume.gif') no-repeat center center;
+}
+.icon-run{
+	background:url('icons/ext_run.gif') no-repeat center center;
+}
+.icon-stop{
+	background:url('icons/ext_stop.gif') no-repeat center center;
+}
+.icon-time{
+	background:url('icons/ext_time.gif') no-repeat center center;
+}

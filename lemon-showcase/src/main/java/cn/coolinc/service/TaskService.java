@@ -2,6 +2,7 @@ package cn.coolinc.service;
 
 import java.io.Serializable;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -76,6 +77,19 @@ public class TaskService {
      */
     public List<Task> findAll(){
             return taskDao.findAll();
+    }
+    
+    public void changeState(Integer id,Integer state){
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("id", id);
+        params.put("state", state);
+        taskDao.changeState(params);
+    }
+    
+    public void changeAllState(Integer state){
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("state", state);
+        taskDao.changeAllState(params);
     }
 
 }

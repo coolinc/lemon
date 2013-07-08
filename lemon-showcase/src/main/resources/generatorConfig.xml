@@ -33,8 +33,9 @@
     <table schema="lemon" tableName="ss_staff" domainObjectName="Staff"/>
 	<table schema="lemon" tableName="ss_department" domainObjectName="Department"/>
     <table schema="lemon" tableName="ss_user" domainObjectName="User"/>
- 	-->
     <table schema="lemon" tableName="ldb_test" domainObjectName="Test"/>
+ 	-->
+    <table schema="lemon" tableName="lemon_task" domainObjectName="Task"/>
     
   </context>
 </generatorConfiguration>

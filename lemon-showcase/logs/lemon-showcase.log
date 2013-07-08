@@ -1,2 +1,56 @@
-2013-06-27 16:51:59,546 [qtp6586859-21] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
-2013-06-27 16:51:59,546 [qtp6586859-21] INFO  [cn.coolinc.web.FooController] - Exception Message:国际化异常
+2013-07-08 09:42:26,380 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 09:42:26,380 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 10:10:48,708 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 10:10:48,708 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 10:32:22,942 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 10:32:22,942 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 10:34:22,021 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 10:34:22,021 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 10:38:07,161 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 10:38:07,161 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 10:43:56,442 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 10:43:56,458 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 10:51:46,833 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 10:51:46,833 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:09:26,833 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:09:26,833 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:10:00,396 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:10:00,396 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:10:55,161 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:10:55,161 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:35:00,146 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:35:00,146 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:46:23,442 [qtp16453941-31] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:46:23,442 [qtp16453941-31] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:48:54,677 [qtp16453941-35] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 11:49:12,833 [qtp16453941-35] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 11:49:18,864 [qtp16453941-31] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 11:49:26,661 [qtp16453941-34] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 11:49:32,036 [qtp16453941-34] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 11:49:33,786 [qtp16453941-30] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 11:49:37,724 [qtp16453941-31] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:49:37,724 [qtp16453941-31] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but disabled:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:51:30,271 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:51:30,271 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:53:27,333 [qtp21039749-33] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 11:54:15,208 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:54:15,208 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:56:21,677 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:56:21,677 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 11:59:26,802 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 11:59:26,802 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 12:01:26,317 [qtp21039749-29] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 12:48:53,130 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 12:48:53,146 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 12:49:26,911 [qtp7710532-28] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 12:49:39,677 [qtp7710532-35] WARN  [cn.coolinc.support.web.exception.AnnotationHandlerMethodExceptionResolver] -  exception real message :null
+2013-07-08 12:50:01,146 [qtp7710532-35] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 12:50:01,146 [qtp7710532-35] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 12:50:20,567 [qtp7710532-34] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but exception:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 12:50:20,661 [qtp7710532-34] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 12:51:57,958 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task,but state STOP:1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 12:51:57,958 [main] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 12:52:23,880 [qtp4285567-34] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 12:52:36,146 [qtp4285567-33] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.8class cn.coolinc.scheduling.BackupScheduler
+2013-07-08 12:52:55,786 [qtp4285567-32] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.1class cn.coolinc.scheduling.HtmlScheduler
+2013-07-08 12:53:02,489 [qtp4285567-31] DEBUG [cn.coolinc.scheduling.SchedulerServiceImpl] - scheduler loaded task:DEFAULT.8class cn.coolinc.scheduling.BackupScheduler

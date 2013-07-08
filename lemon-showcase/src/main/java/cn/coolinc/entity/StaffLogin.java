@@ -34,7 +34,7 @@ public class StaffLogin {
         this.staffId = staffId;
     }
 
-    @JsonSerialize(using = CustomDateSerializer.class)
+    //@JsonSerialize(using = CustomDateSerializer.class)
     public Date getLoginDate() {
         return loginDate;
     }

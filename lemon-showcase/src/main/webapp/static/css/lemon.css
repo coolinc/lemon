@@ -78,9 +78,14 @@ input {
 	table-layout: fixed;
 }
 
+.dlg-table td{
+	/* border: 1px solid #ccc; */
+}
+
 .dlg-table .ltd {
 	width: 100px;
-	text-align: left;
+	text-align: right;
+	/* background-color: #eaf2ff; */
 }
 
 .dlg-table .rtd input {

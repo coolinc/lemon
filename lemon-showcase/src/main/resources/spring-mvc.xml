@@ -47,6 +47,18 @@
 					<value>text/javascript;charset=UTF-8</value>
 				</list>
 			</property>
+			<property name="objectMapper">
+	    	<bean class="org.codehaus.jackson.map.ObjectMapper">
+	    		<property name="dateFormat">
+	    			<bean class="java.text.SimpleDateFormat">
+	    				<constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm"></constructor-arg>
+	    			</bean>
+	    		</property>
+	    		<property name="serializationInclusion">
+					<value type="org.codehaus.jackson.map.annotate.JsonSerialize$Inclusion">NON_NULL</value>
+				</property>
+	    	</bean>
+	    </property>
 		</bean>
 	</util:list>
 

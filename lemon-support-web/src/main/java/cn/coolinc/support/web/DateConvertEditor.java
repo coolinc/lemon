@@ -5,19 +5,22 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import org.springframework.util.StringUtils;
 /**
- * JavaBean 日期转换编辑器
+ * JavaBean 自动set，日期转换编辑器
  * @author coolinc
  */
 public class DateConvertEditor extends PropertyEditorSupport {
-	private SimpleDateFormat datetimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-	private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+	private final SimpleDateFormat datetimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	private final SimpleDateFormat datetimeShortFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+	private final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 	public void setAsText(String text) throws IllegalArgumentException {
 		if (StringUtils.hasText(text)) {
 			try {
 				if (text.indexOf(":") == -1 && text.length() == 10) {
 					setValue(this.dateFormat.parse(text));
-				} else if (text.indexOf(":") > 0 && text.length() == 19) {
+				} else if (text.indexOf(":") > 0 && text.length() == 16) {
+                    setValue(this.datetimeShortFormat.parse(text));
+                } else if (text.indexOf(":") > 0 && text.length() == 19) {
 					setValue(this.datetimeFormat.parse(text));
 				}else{
 					throw new IllegalArgumentException("Could not parse date, date format is error ");

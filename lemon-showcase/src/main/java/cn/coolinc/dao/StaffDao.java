@@ -16,9 +16,8 @@ public interface StaffDao extends MybatisDao<Staff>{
     void changePassword(Map<String,Object> params);
     
     /**
-     *  修改密码
-     * @param id 员工Id
-     * @param password 新密码
+     * 开启、禁用员工账号
+     * @param params
      */
     void changeEanbled(Map<String,Object> params);
     

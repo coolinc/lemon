@@ -59,7 +59,7 @@ public class StringUtils {
 	 * @param str
 	 * @return
 	 */
-	public static String filteNull(String str){
+	public static String null2blank(String str){
 		if(null==str){
 			return "";
 		}else{
@@ -227,7 +227,7 @@ public class StringUtils {
         int length = end - begin;
         if(count > length){
             throw new RuntimeException("IllegalArgumentsException: "
-                    + "\"count\" shoud NOT greater than (end - benin)");
+                    + "\"count\" shoud NOT greater than (end - begin)");
         }
         int[] ori = new int[length];
         for (int i = 0; i < length; i++) {

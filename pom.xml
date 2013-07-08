@@ -20,6 +20,7 @@
   </build>
   <modules>
   	<module>lemon-parent</module>
+  	<module>lemon-commons</module>
   	<module>lemon-support-dao</module>
   	<module>lemon-support-test</module>
   	<module>lemon-support-web</module>
@@ -29,6 +30,5 @@
   	<module>lemon-support-sms</module>
   	<module>lemon-quickstart</module>
   	<module>lemon-showcase</module>
-  	<module>lemon-commons</module>
   </modules>
 </project>

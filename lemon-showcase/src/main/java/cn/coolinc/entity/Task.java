@@ -2,97 +2,146 @@ package cn.coolinc.entity;
 
 import java.util.Date;
 
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+
 public class Task {
-    public Integer id;
-    public String name;
-    public Integer period;
-    public String periodWeek;
-    public String periodTime;
-    public String targetObject;
-    public Date startDate;
-    public Date endDate;
-    public String cronExpression;
-    public String description;
-    public Date createDate;
-    public String creator;
-    public Integer disable;
+    public final static Integer STATE_RUN=0;
+    public final static Integer STATE_STOP=1;
+    public final static Integer STATE_PAUSE=2;
     
+    private Integer id;
+
+    private String name;
+
+    private Integer period;
+
+    private String targetObject;
+
+    private Date beginDate;
+
+    private Date endDate;
+
+    private String cronExpression;
+
+    private String description;
+
+    private Integer state;
+
+    private Date createDate;
+
+    private String creator;
+
+    private Date modifyDate;
+
+    private String modificator;
+
     public Integer getId() {
         return id;
     }
+
     public void setId(Integer id) {
         this.id = id;
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
-        this.name = name;
+        this.name = name == null ? null : name.trim();
     }
+
     public Integer getPeriod() {
         return period;
     }
+
     public void setPeriod(Integer period) {
         this.period = period;
     }
-    public String getPeriodWeek() {
-        return periodWeek;
-    }
-    public void setPeriodWeek(String periodWeek) {
-        this.periodWeek = periodWeek;
-    }
-    public String getPeriodTime() {
-        return periodTime;
-    }
-    public void setPeriodTime(String periodTime) {
-        this.periodTime = periodTime;
-    }
+
     public String getTargetObject() {
         return targetObject;
     }
+
     public void setTargetObject(String targetObject) {
-        this.targetObject = targetObject;
+        this.targetObject = targetObject == null ? null : targetObject.trim();
     }
-    public Date getStartDate() {
-        return startDate;
+
+    @JsonSerialize(using=cn.coolinc.support.web.CustomDateTimeSerializer.class)
+    public Date getBeginDate() {
+        return beginDate;
     }
-    public void setStartDate(Date startDate) {
-        this.startDate = startDate;
+
+    public void setBeginDate(Date beginDate) {
+        this.beginDate = beginDate;
     }
+
+    @JsonSerialize(using=cn.coolinc.support.web.CustomDateTimeSerializer.class)
     public Date getEndDate() {
         return endDate;
     }
+
     public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
-    public String getDescription() {
-        return description;
-    }
-    public void setDescription(String description) {
-        this.description = description;
-    }
-    public Date getCreateDate() {
-        return createDate;
-    }
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
-    }
-    public String getCreator() {
-        return creator;
-    }
-    public void setCreator(String creator) {
-        this.creator = creator;
-    }
+
     public String getCronExpression() {
         return cronExpression;
     }
+
     public void setCronExpression(String cronExpression) {
-        this.cronExpression = cronExpression;
+        this.cronExpression = cronExpression == null ? null : cronExpression.trim();
     }
-    public Integer getDisable() {
-        return disable;
+
+    public String getDescription() {
+        return description;
     }
-    public void setDisable(Integer disable) {
-        this.disable = disable;
+
+    public void setDescription(String description) {
+        this.description = description == null ? null : description.trim();
     }
+
+
+    @JsonSerialize(using=cn.coolinc.support.web.CustomDateTimeSerializer.class)
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+
+    public String getCreator() {
+        return creator;
+    }
+
+    public void setCreator(String creator) {
+        this.creator = creator == null ? null : creator.trim();
+    }
+
+    @JsonSerialize(using=cn.coolinc.support.web.CustomDateTimeSerializer.class)
+    public Date getModifyDate() {
+        return modifyDate;
+    }
+
+    public void setModifyDate(Date modifyDate) {
+        this.modifyDate = modifyDate;
+    }
+
+    public String getModificator() {
+        return modificator;
+    }
+
+    public void setModificator(String modificator) {
+        this.modificator = modificator == null ? null : modificator.trim();
+    }
+
+    public Integer getState() {
+        return state;
+    }
+
+    public void setState(Integer state) {
+        this.state = state;
+    }
+
 }
