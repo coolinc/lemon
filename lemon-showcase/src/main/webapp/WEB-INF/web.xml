@@ -83,6 +83,11 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+	<servlet>
+		<servlet-name>SchedulerInitializer</servlet-name>
+		<servlet-class>cn.coolinc.scheduling.SchedulerInitializer</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
 	<error-page>
 		<error-code>403</error-code>
 		<location>/WEB-INF/views/errors/403.jsp</location>

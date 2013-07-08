@@ -167,7 +167,7 @@
             if (result.success){ 
                 $.messager.show({  
                     title: '信息反馈',  
-                    msg:"所有任务都已停止"
+                    msg:"任务已停止"
                 });
                 $('#dg').datagrid('reload');
             }
@@ -180,7 +180,7 @@
             if (result.success){  
                 $.messager.show({  
                     title: '信息反馈',  
-                    msg:"所有任务都已开启"
+                    msg:"任务已开启"
                 });
                 $('#dg').datagrid('reload');
             }

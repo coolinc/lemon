@@ -11,7 +11,6 @@ import org.quartz.TriggerUtils;
 import org.quartz.impl.StdSchedulerFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.InitializingBean;
 
 import cn.coolinc.dao.TaskJdbcDao;
 import cn.coolinc.entity.Task;
@@ -21,11 +20,11 @@ import cn.coolinc.entity.Task;
  * @author coolinc
  *
  */
-public class SchedulerServiceImpl implements InitializingBean, SchedulerService {
+public class SchedulerServiceImpl implements SchedulerService {
     Logger logger=LoggerFactory.getLogger(getClass());
     private static Scheduler scheduler;
     private static Object lock = new Object();
-    
+
     TaskJdbcDao taskJdbcDao;
 
     public TaskJdbcDao getTaskJdbcDao() {
@@ -154,12 +153,6 @@ public class SchedulerServiceImpl implements InitializingBean, SchedulerService 
             scheduler.resumeAll();
     }
 
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        scheduler=getScheduler();
-        initializeTasks();
-    }
-    
     /**
      * 判断任务是否在调度执行
      * @param id
