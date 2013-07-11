@@ -17,13 +17,14 @@ import cn.coolinc.entity.RoleStaff;
 import cn.coolinc.service.RoleService;
 import cn.coolinc.service.RoleStaffService;
 import cn.coolinc.support.dao.Page;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.ControllerUtils;
 import cn.coolinc.support.web.easyui.DataGrid;
 import cn.coolinc.support.web.easyui.Messager;
 import cn.coolinc.support.web.easyui.EasyUISupport;
 import cn.coolinc.support.web.easyui.TreeNode;
 @Controller
-public class RoleStaffController {
+public class RoleStaffController  extends BaseController{
     @Autowired
     RoleService roleService;
     @Autowired

@@ -7,7 +7,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
-public class LocaleController implements Controller{
+import cn.coolinc.support.web.BaseController;
+
+public class LocaleController extends BaseController implements Controller{
     
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         String contextPath = request.getContextPath();

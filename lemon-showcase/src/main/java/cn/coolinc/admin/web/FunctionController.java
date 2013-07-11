@@ -15,11 +15,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import cn.coolinc.entity.Function;
 import cn.coolinc.service.FunctionService;
 import cn.coolinc.support.dao.Page;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.ControllerUtils;
 import cn.coolinc.support.web.easyui.DataGrid;
 import cn.coolinc.support.web.easyui.Messager;
 @Controller
-public class FunctionController {
+public class FunctionController extends BaseController{
     @Autowired
     FunctionService functionService;
     

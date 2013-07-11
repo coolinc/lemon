@@ -342,7 +342,19 @@
 			<groupId>org.quartz-scheduler</groupId>
 			<artifactId>quartz</artifactId>
 		</dependency>
-	</dependencies>
+		<dependency>
+		<groupId>net.sf.ehcache</groupId>
+		<artifactId>ehcache-core</artifactId>
+		</dependency>
+		<dependency>
+			    <groupId>net.sf.ehcache</groupId>
+			    <artifactId>ehcache-web</artifactId>
+			</dependency>
+		<dependency>
+		    <groupId>com.googlecode.ehcache-spring-annotations</groupId>
+		    <artifactId>ehcache-spring-annotations</artifactId>
+		</dependency>
+		</dependencies>
 	<build>
 		<finalName>lemon-showcase</finalName>
 	</build>

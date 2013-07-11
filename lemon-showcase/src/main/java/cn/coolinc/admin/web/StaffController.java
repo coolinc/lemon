@@ -19,11 +19,12 @@ import cn.coolinc.entity.Staff;
 import cn.coolinc.service.StaffService;
 import cn.coolinc.support.dao.Page;
 import cn.coolinc.support.security.SecuritySupport;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.ControllerUtils;
 import cn.coolinc.support.web.easyui.DataGrid;
 import cn.coolinc.support.web.easyui.Messager;
 @Controller
-public class StaffController {
+public class StaffController  extends BaseController{
     @Autowired
     StaffService staffService;
     

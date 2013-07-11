@@ -34,4 +34,11 @@
 			<artifactId>log4j</artifactId>
 		</dependency>
   </dependencies>
+  
+   	<distributionManagement>
+	  <repository>
+	    <id>ruanzhu</id>
+	    <url>http://192.168.1.2:8081/nexus/content/repositories/ruanzhu</url>
+	  </repository>
+	</distributionManagement>
 </project>

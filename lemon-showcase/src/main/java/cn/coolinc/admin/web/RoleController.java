@@ -15,11 +15,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import cn.coolinc.entity.Role;
 import cn.coolinc.service.RoleService;
 import cn.coolinc.support.dao.Page;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.ControllerUtils;
 import cn.coolinc.support.web.easyui.DataGrid;
 import cn.coolinc.support.web.easyui.Messager;
 @Controller
-public class RoleController {
+public class RoleController extends BaseController {
     @Autowired
     RoleService roleService;
     

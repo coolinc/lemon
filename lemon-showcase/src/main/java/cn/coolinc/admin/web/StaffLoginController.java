@@ -16,10 +16,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import cn.coolinc.entity.StaffLogin;
 import cn.coolinc.service.StaffLoginService;
 import cn.coolinc.support.dao.Page;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.ControllerUtils;
 import cn.coolinc.support.web.easyui.DataGrid;
 @Controller
-public class StaffLoginController {
+public class StaffLoginController extends BaseController {
     @Autowired
     StaffLoginService staffLoginService;
     

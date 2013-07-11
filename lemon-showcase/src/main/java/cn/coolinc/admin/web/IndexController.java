@@ -17,10 +17,11 @@ import cn.coolinc.service.MenuService;
 import cn.coolinc.service.RoleResService;
 import cn.coolinc.service.StaffService;
 import cn.coolinc.support.security.SecuritySupport;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.easyui.EasyUISupport;
 import cn.coolinc.support.web.easyui.Menu;
 @Controller
-public class IndexController{
+public class IndexController extends BaseController{
 
     @Autowired
     MenuService menuService;

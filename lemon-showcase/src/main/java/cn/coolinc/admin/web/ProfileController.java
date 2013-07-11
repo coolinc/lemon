@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import cn.coolinc.entity.Staff;
 import cn.coolinc.service.StaffService;
 import cn.coolinc.support.security.SecuritySupport;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.ControllerUtils;
 import cn.coolinc.support.web.easyui.Messager;
 @Controller
-public class ProfileController {
+public class ProfileController  extends BaseController{
     
     @Autowired
     StaffService staffService;

@@ -14,8 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
+import cn.coolinc.support.web.BaseController;
+
 @Controller
-public class CKEditorController {
+public class CKEditorController extends BaseController{
     Log log=LogFactory.getLog(getClass());
     private  boolean CKEditor_uploadIsEnable = true;
     private  String CKEditor_uploadDir="/static/upload/editor/";

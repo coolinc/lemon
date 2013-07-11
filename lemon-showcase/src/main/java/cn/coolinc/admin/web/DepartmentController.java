@@ -12,12 +12,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import cn.coolinc.entity.Department;
 import cn.coolinc.service.DepartmentService;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.easyui.Messager;
 import cn.coolinc.support.web.easyui.EasyUISupport;
 import cn.coolinc.support.web.easyui.TreeNode;
 
 @Controller
-public class DepartmentController {
+public class DepartmentController extends BaseController{
     @Autowired
     DepartmentService departmentService;
     

@@ -7,8 +7,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import cn.coolinc.support.web.BaseController;
+
 @Controller
-public class PortletController{
+public class PortletController extends BaseController{
 
     @RequestMapping("/admin/portlet")
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) {

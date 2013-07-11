@@ -18,13 +18,14 @@ import cn.coolinc.entity.RoleRes;
 import cn.coolinc.service.MenuService;
 import cn.coolinc.service.RoleResService;
 import cn.coolinc.service.RoleService;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.easyui.Menu;
 import cn.coolinc.support.web.easyui.Messager;
 import cn.coolinc.support.web.easyui.EasyUISupport;
 import cn.coolinc.support.web.easyui.TreeNode;
 
 @Controller
-public class RoleResController {
+public class RoleResController  extends BaseController{
     @Autowired
     RoleService roleService;
     

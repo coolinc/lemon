@@ -7,8 +7,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import cn.coolinc.support.web.BaseController;
+
 @Controller
-public class LoginController{
+public class LoginController extends BaseController{
     
     @RequestMapping(value="/admin/login")
     public String login(HttpServletRequest request, HttpServletResponse response) {

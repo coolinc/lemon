@@ -11,13 +11,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import cn.coolinc.service.MenuService;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.easyui.Menu;
 import cn.coolinc.support.web.easyui.Messager;
 import cn.coolinc.support.web.easyui.EasyUISupport;
 import cn.coolinc.support.web.easyui.TreeNode;
 
 @Controller
-public class MenuController {
+public class MenuController extends BaseController{
     @Autowired
     MenuService menuService;
     

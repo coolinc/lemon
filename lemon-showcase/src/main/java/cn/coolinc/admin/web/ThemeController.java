@@ -6,7 +6,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
-public class ThemeController implements Controller{
+import cn.coolinc.support.web.BaseController;
+
+public class ThemeController extends BaseController implements Controller{
     
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         String contextPath = request.getContextPath();

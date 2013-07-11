@@ -15,11 +15,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import cn.coolinc.entity.CodeType;
 import cn.coolinc.service.CodeTypeService;
 import cn.coolinc.support.dao.Page;
+import cn.coolinc.support.web.BaseController;
 import cn.coolinc.support.web.ControllerUtils;
 import cn.coolinc.support.web.easyui.DataGrid;
 import cn.coolinc.support.web.easyui.Messager;
 @Controller
-public class CodeTypeController {
+public class CodeTypeController extends BaseController{
     @Autowired
     CodeTypeService codeTypeService;
     

@@ -1,4 +1,4 @@
-package cn.coolinc.support.web;
+package cn.coolinc.support.web.util;
 
 import java.io.UnsupportedEncodingException;
 import java.util.UUID;
